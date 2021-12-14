@@ -10,7 +10,9 @@ const RETURN_SUCESS = 200
 function getRandomYear(MIN,MAX){
     return Math.random()*(MAX - MIN)+MIN;
 }
-let yearSelector = parseInt(getRandomYear(YEAR_INIT,YEAR_MAX));
+setInterval(function run(){
+    yearSelector = parseInt(getRandomYear(YEAR_INIT,YEAR_MAX));
+},2000);
 
 routes.get("/action", async (req, res) => {
     try{''
@@ -21,6 +23,8 @@ routes.get("/action", async (req, res) => {
             description: repo.overview,
             image: repo.poster_path
         }))
+  
+        
 
         res.status(RETURN_SUCESS).json(JsonExit)
     } catch(err)
