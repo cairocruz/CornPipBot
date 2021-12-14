@@ -14,9 +14,11 @@ setInterval(function run(){
     yearSelector = parseInt(getRandomYear(YEAR_INIT,YEAR_MAX));
 },2000);
 
+
+
 routes.get("/action", async (req, res) => {
     try{''
-        const {data} = await apiTmdb.get("/3/discover/movie?api_key=25ee67d83ff241397fc126e2cd86b25d&language=pt-BR&page=1&primary_release_year=2021&with_genres=28")
+        const {data} = await apiTmdb.get("/3/discover/movie?api_key=25ee67d83ff241397fc126e2cd86b25d&language=pt-BR&page=1&primary_release_year="+yearSelector+"&with_genres=28")
        const genrefil = data.results.slice(INIT_VALUE, MAX_VALUE)
        const JsonExit = genrefil.map(repo => ({
             name: repo.original_title,
