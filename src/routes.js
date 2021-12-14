@@ -23,7 +23,7 @@ routes.get("/action", async (req, res) => {
        const JsonExit = genrefil.map(repo => ({
             name: repo.original_title,
             description: repo.overview,
-            image: repo.poster_path
+            image: "http://image.tmdb.org/t/p/w500"+repo.poster_path
         }))
   
         
