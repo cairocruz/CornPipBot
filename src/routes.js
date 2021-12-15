@@ -2,7 +2,7 @@ const routes = require("express").Router();
 const apiTmdb = require("./api/apiTmdb")
 
 const INIT_VALUE = 0
-const YEAR_INIT = 1990
+const YEAR_INIT = 1970
 const YEAR_MAX = 2021
 const MAX_VALUE = 6
 const RETURN_SUCESS = 200
