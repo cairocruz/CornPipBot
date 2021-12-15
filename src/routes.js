@@ -24,7 +24,6 @@ routes.get("/action", async (req, res) => {
             name: repo.original_title,
             description: repo.overview,
             image: "http://image.tmdb.org/t/p/w500"+repo.poster_path,
-            infoYear: parseInt(yearSelector)
         }))
   
         
@@ -101,7 +100,6 @@ routes.get("/aventura", async (req, res) => {
             name: repo.original_title,
             description: repo.overview,
             image: "http://image.tmdb.org/t/p/w500"+repo.poster_path,
-            infoYear: yearSelector
 
         }))
   
