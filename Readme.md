@@ -56,7 +56,7 @@ As seguintes ferramentas foram usadas na construção da API:
 ---
 
 ## Links Uteis
-- [x] Link do BotLora na plataforma TakeBlip: <a href="https://cairo-cruz-25qx5.chat.blip.ai/?appKey=cGlwYm90OjRmYzA3ZmMwLTVlNTQtNDQ2OC05OGY4LTA1ZTMzMjQ2NzZkYw==">Chatbot para teste</a>
+- [x] Link do CornPipBot na plataforma TakeBlip: <a href="https://cairo-cruz-25qx5.chat.blip.ai/?appKey=cGlwYm90OjRmYzA3ZmMwLTVlNTQtNDQ2OC05OGY4LTA1ZTMzMjQ2NzZkYw==">Chatbot para teste</a>
 
 ---
 
